@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShoppingCart</name>
+    </assembly>
+    <members>
+        <member name="M:ShoppingCart.Controllers.CartController.GetAllCartItems">
+            <summary>
+            Gets all Carts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingCart.Controllers.CartController.GetTotalItemsAndTotalPrice">
+            <summary>
+            Gets total number of CartItems and TotalPrice of all Items
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingCart.Controllers.CartController.AddCartItem(ShoppingCart.Models.Cart)">
+            <summary>
+            Creates a new CartItem
+            </summary>
+            <param name="newcart"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingCart.Controllers.CartController.GetCartItemById(System.Int32)">
+            <summary>
+            Returns CartItem by a given Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingCart.Controllers.CartController.UpdateCartItem(ShoppingCart.Models.Cart)">
+            <summary>
+            Updates CartItem by Id
+            </summary>
+            <param name="cart"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingCart.Controllers.CartController.DeleteCartItem(System.Int32)">
+            <summary>
+            Deletes cart Item by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShoppingCart.Controllers.CartUserLoginController.Login(ShoppingCart.Models.CartUserLogin)">
+            <summary>
+            Login  used to generate Jwt tokens
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
